@@ -15,7 +15,7 @@
                 <div class="navbar-header">
                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                   </button>
-                  <a class="navbar-brand" href="inicio.php">Loja Virtual</a>
+                  <a class="navbar-brand" href="index.php">Loja Virtual</a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -26,7 +26,7 @@
                     <li><a href="faleconosco.php">Fale Conosco</a></li>
                   </ul>
                   <ul class="nav navbar-nav navbar-right">
-                    <form class="navbar-form navbar-right" method="post" action="inicio.php">
+                    <form class="navbar-form navbar-right" method="post" action="index.html">
                     <div class="form-group">
                       <input name="inputEmail" type="email" class="form-control" placeholder="E-mail">
                       <input name="inputPass" type="password" class="form-control" placeholder="Senha">
@@ -70,7 +70,7 @@
 			</p>
 		</article>
 		
-		<?php
+		<!--<?php
 			if($_POST){
 				$email = $_POST['inputEmail'];				
 				$senha = $_POST['inputPass'];
@@ -89,9 +89,9 @@
 					header('location:/lojavirtual/lista.php'); 
 				}
 				else{
-					echo"<script language='javascript' type='text/javascript'>window.location.href='/lojavirtual/inicio.php'; alert('Login e/ou senha incorretos');</script>";
+					echo"<script language='javascript' type='text/javascript'>window.location.href='/lojavirtual/index.html'; alert('Login e/ou senha incorretos');</script>";
 				}
 			}
-		?>
+		?>-->
     </body>
 </html>
