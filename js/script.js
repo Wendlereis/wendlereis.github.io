@@ -5,7 +5,6 @@ function Person(firstName, lastName, age){
 }
 
 var people = [];
-people.push(new Person("aa", "bb", 99));
 
 var addPeople = function(){
 	var firstName = document.getElementById('txtFirstName').value;
@@ -13,13 +12,13 @@ var addPeople = function(){
 	var age = document.getElementById('txtAge').value;
 		
 	people.push(new Person(firstName, lastName, age));
-	
-	console.log(people[0]);
 }
 
 var showPeople = function(){
+	var allpeople = "";
+	
 	for(var i = 0; i < people.length; i++){
-		var allpeople = "People "+i+": "+people[i].firstName+" "+people[i].lastName+" "+people[i].age+"<br>";
+		allpeople += "People "+i+": "+people[i].firstName+" "+people[i].lastName+" "+people[i].age+"<br>";
 	}
 	
 	document.getElementById('showPanel').innerHTML = allpeople;
