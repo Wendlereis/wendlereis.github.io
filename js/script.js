@@ -5,19 +5,22 @@ function Person(firstName, lastName, age){
 }
 
 var people = [];
+people.push(new Person("aa", "bb", 99));
 
 var addPeople = function(){
-	var firstName = document.getElementById('txtFirstName');
-	var lastName = document.getElementById('txtLastName');
-	var age = document.getElementById('txtAge');
+	var firstName = document.getElementById('txtFirstName').value;
+	var lastName = document.getElementById('txtLastName').value;
+	var age = document.getElementById('txtAge').value;
+		
+	people.push(new Person(firstName, lastName, age));
 	
-	var person = new Person(firstName, lastName, age);
-	
-	people[people.length] = person;
+	console.log(people[0]);
 }
 
 var showPeople = function(){
 	for(var i = 0; i < people.length; i++){
-		document.getElementById('showPanel').innerHTML = people[i];
+		var allpeople = "People "+i+": "+people[i].firstName+" "+people[i].lastName+" "+people[i].age+"<br>";
 	}
+	
+	document.getElementById('showPanel').innerHTML = allpeople;
 }

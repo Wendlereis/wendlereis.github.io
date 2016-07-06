@@ -1,8 +1,9 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>About</title>
-		<script src="js/script.js"></script>
+		<meta charset="utf-8">
+		<script src="../js/script.js"></script>
 	</head>
 
 	<body>
@@ -10,8 +11,10 @@
 			First name: <input id="txtFirstName" type="text"><br>
 			Last name: <input id="txtLastName" type="text"><br>
 			Age: <input id="txtAge" type="text"><br>
-			<input type="submit" value="Add" onclick="add()">
-			<input type="submit" value="Show" onclick="showPeople()">
+			
+			<input type="submit" onClick="addPeople();" value="Add"/>
+			<input type="submit" onClick="showPeople();" value="Show"/>
+						
 			<p id="showPanel"></p>
 		</form>
 	</body>
