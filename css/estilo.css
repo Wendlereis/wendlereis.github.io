@@ -1,7 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+/* ----------TAGS---------*/
 body {
+	margin: 0;
 }
 
-#img-back {
+section img {
+	width: 550px;
+}
+
+/* ----------ID's---------*/
+#img-background {
 	background-color: #007bb6;
 	text-align: center;
+}
+
+/* ----------CLASSES---------*/
+.mainTitle{
+	font-family: poiret one;
+	font-size: 52px;
+	margin-top: 50px; 
 }
