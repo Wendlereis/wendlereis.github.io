@@ -15,9 +15,13 @@ section img {
 	text-align: center;
 }
 
+#menu-bar{
+	margin: -35px;
+	border: 2px solid red;
+}
+
 /* ----------CLASSES---------*/
 .mainTitle{
 	font-family: poiret one;
 	font-size: 52px;
-	margin-top: 50px; 
 }
