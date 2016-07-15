@@ -16,8 +16,10 @@ section img {
 }
 
 #menu-bar{
-	margin: -35px;
-	border: 2px solid red;
+	margin-top: -45px;
+	background-color: darkslategrey;
+	border-radius: 15px;
+	height: 90px;
 }
 
 /* ----------CLASSES---------*/
