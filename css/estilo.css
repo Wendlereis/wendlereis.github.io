@@ -5,8 +5,12 @@ body {
 	margin: 0;
 }
 
+h1 {
+	margin-top: 10px;
+}
+
 section img {
-	width: 550px;
+	width: 730px;
 }
 
 /* ----------ID's---------*/
@@ -16,14 +20,18 @@ section img {
 }
 
 #menu-bar{
-	margin-top: -45px;
-	background-color: darkslategrey;
-	border-radius: 15px;
+	background-color: #669bca;
+	background: linear-gradient(#007bb6 30%, #669bca); /* Standard syntax */
 	height: 90px;
+}
+
+.test {
+	width: 50px;
+	display: inline;
 }
 
 /* ----------CLASSES---------*/
 .mainTitle{
 	font-family: poiret one;
-	font-size: 52px;
+	font-size: 48px;
 }
