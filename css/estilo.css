@@ -3,36 +3,14 @@
 /* ----------TAGS---------*/
 body {
 	margin: 0;
-	background-color: #000;
 }
 
-h1 {
-	margin-top: 10px;
-}
-
-section img {
-	width: 730px;
+header {
+	background-image: url("img\headerbkg.png");
+	height: 400px;
+	border: 1px dashed black;
 }
 
 /* ----------ID's---------*/
-#img-background {
-	background-color: #007bb6;
-	text-align: center;
-}
-
-#menu-bar{
-	background-color: #669bca;
-	background: linear-gradient(#007bb6 30%, #669bca); /* Standard syntax */
-	height: 90px;
-}
-
-.test {
-	width: 50px;
-	display: inline;
-}
 
 /* ----------CLASSES---------*/
-.mainTitle{
-	font-family: poiret one;
-	font-size: 48px;
-}
