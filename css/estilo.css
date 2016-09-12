@@ -1,8 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
 
 /*** Tags ***/
-body {
+body, html {
 	margin: 0;
+	font-family: poiret one;
 }
 
 header {
@@ -29,6 +30,15 @@ nav img {
 	position: absolute;
 	top: 10px;
 	left: 330px;
+}
+
+section {
+	background-color: #00CCFF;
+	height: 300px;
+}
+
+section h1 {
+	text-transform: uppercase;
 }
 
 /*** Classes ***/
