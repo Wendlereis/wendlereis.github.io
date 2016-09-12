@@ -6,9 +6,9 @@ body {
 }
 
 header {
-	background-image: url("img\headerbkg.png");
-	height: 400px;
-	border: 1px dashed black;
+	background: url("../img/headerbkg.jpg") center center no-repeat;
+	background-size: cover;
+	height: 582px;
 }
 
 /* ----------ID's---------*/
