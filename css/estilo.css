@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
 
-/* ----------TAGS---------*/
+/*** Tags ***/
 body {
 	margin: 0;
 }
@@ -11,6 +11,28 @@ header {
 	height: 582px;
 }
 
-/* ----------ID's---------*/
+header ul {
+	text-align: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
 
-/* ----------CLASSES---------*/
+header li {
+	display: inline-block;
+	color: #fff;
+	padding: 25px 30px;
+	font-size: 24px;
+}
+
+nav img {
+	position: absolute;
+	top: 10px;
+	left: 330px;
+}
+
+/*** Classes ***/
+.menu {
+	background-color: #000;
+	opacity: 0.8;
+}
