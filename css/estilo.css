@@ -40,13 +40,16 @@ nav img {
 
 section {
 	background-color: #00CCFF;
-	height: 200px;
 }
 
 section h1 {
 	text-transform: uppercase;
-    margin: 0;
     padding-top: 70px; 
+    margin: 0;
+}
+
+section p {
+    padding-bottom: 70px;
 }
 
 /*** Classes ***/
