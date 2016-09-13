@@ -26,6 +26,11 @@ header li {
 	font-size: 24px;
 }
 
+header li:hover, .active {
+	color: #00CCFF;
+	text-transform: uppercase;
+}
+
 nav img {
 	position: absolute;
 	top: 10px;
@@ -48,9 +53,19 @@ section h1 {
 }
 
 /*** Media Queries ***/
+@media (max-width: 640px) {
+	header li {
+		padding: 7px 140px;
+	}
+
+	nav img {
+		display: none;
+	}
+}
+
 @media (max-width: 500px) {
 	header li {
-		padding: 7px 70px;
+		padding: 7px 70pxpx;
 	}
 
 	nav img {
