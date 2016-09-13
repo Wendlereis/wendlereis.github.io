@@ -46,3 +46,14 @@ section h1 {
 	background-color: #000;
 	opacity: 0.8;
 }
+
+/*** Media Queries ***/
+@media (max-width: 500px) {
+	header li {
+		padding: 7px 70px;
+	}
+
+	nav img {
+		display: none;
+	}
+}
