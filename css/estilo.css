@@ -68,3 +68,13 @@ section p {
 		display: none;
 	}
 }
+
+@media (min-width: 375px) and (max-width: 414px) {
+	header li {
+		padding: 7px 140px;
+	}
+
+	nav img {
+		display: none;
+	}
+}
