@@ -59,11 +59,9 @@ section p {
 }
 
 /*** Media Queries ***/
-
-
 @media (max-width: 500px) {
 	ul li {
-		margin: 100%;
+		width: 100%;
 	}
 
 	nav img {
