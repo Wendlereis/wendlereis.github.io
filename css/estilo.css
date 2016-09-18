@@ -59,9 +59,9 @@ section p {
 }
 
 /*** Media Queries ***/
-@media (min-width: 320px) and (max-width: 375px) {
+@media (max-width: 768px) {
 	header li {
-		padding: 7px 70px;
+		padding: 7px 210px;
 	}
 
 	nav img {
@@ -69,9 +69,9 @@ section p {
 	}
 }
 
-@media (min-width: 375px) and (max-width: 414px) {
+@media (max-width: 500px) {
 	header li {
-		padding: 7px 140px;
+		padding: 7px 70px;
 	}
 
 	nav img {
