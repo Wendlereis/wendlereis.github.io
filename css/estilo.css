@@ -35,20 +35,20 @@ ul img {
 	margin-top: -10px;
 }
 
-section {
+/*** Classes ***/
+.section {
 	background-color: #00CCFF;
 }
 
-section h1 {
+.section h2 {
 	text-transform: uppercase;
     margin-top: 70px;
 }
 
-section p {
+.section p {
     margin-bottom: 70px;
 }
 
-/*** Classes ***/
 .menu {
 	background-color: #000;
 	opacity: 0.8;
