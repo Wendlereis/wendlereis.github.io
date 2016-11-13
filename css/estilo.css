@@ -3,7 +3,6 @@
 /*** Tags ***/
 body, html {
 	margin: 0;
-	
 }
 
 header {
@@ -32,10 +31,8 @@ header li:hover, .active {
 	text-transform: uppercase;
 }
 
-nav img {
-	position: absolute;
-	top: 10px;
-	left: 330px;
+ul img {
+	margin-top: -10px;
 }
 
 section {
@@ -44,12 +41,11 @@ section {
 
 section h1 {
 	text-transform: uppercase;
-    padding-top: 70px; 
-    margin: 0;
+    margin-top: 70px;
 }
 
 section p {
-    padding-bottom: 70px;
+    margin-bottom: 70px;
 }
 
 /*** Classes ***/
@@ -59,10 +55,10 @@ section p {
 }
 
 /*** Media Queries ***/
-@media (min-width: 320px) {
+@media (max-width: 767px) {
 	ul li {
-		width: 100%;
-		padding: 7px 0;
+		display: block;
+		padding: 10px 0; 
 	}
 
 	nav img {
