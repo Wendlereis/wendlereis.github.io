@@ -21,7 +21,7 @@ header ul {
 header li {
 	display: inline-block;
     padding: 25px 30px;	
-    font-family: poiret one;	
+    font-family: "poiret one";	
 	font-size: 24px;
     color: #fff;
 }
@@ -50,7 +50,7 @@ footer {
 }
 
 footer div {
-	font-family: poiret one;
+	font-family: "poiret one";
 	font-size: 18px;
 	color: #fff; 
 	padding-top: 50px; 
