@@ -6,9 +6,9 @@ body, html {
 }
 
 header {
-	background: url("../img/headerbkg.jpg") center center no-repeat;
+	background: url("../img/header.jpg") center center no-repeat;
 	background-size: cover;
-	height: 582px;
+	height: 800px;
 }
 
 header ul {
@@ -35,6 +35,27 @@ ul img {
 	margin-top: -10px;
 }
 
+form label {
+	margin-top: 15px;
+}
+
+form input, textarea{
+	margin-bottom: 25px; 
+	max-width: 650px;
+}
+
+footer {
+	background-color: #19212d;
+	height: 90px; 
+}
+
+footer div {
+	font-family: poiret one;
+	font-size: 18px;
+	color: #fff; 
+	padding-top: 50px; 
+}
+
 /*** Classes ***/
 .computing {
 	background: url("../img/computing.png") no-repeat center center;
@@ -56,17 +77,36 @@ ul img {
 	font-size: 20px;
 }
 
+.contact {
+	margin: 0 auto;
+	background-color: #e5e5e5; 
+}
+
+.contact h2 {
+	text-transform: uppercase;
+    margin-top: 70px;
+	font-size: 32px;
+}
+
+.contact button {
+	margin: 20px 0;
+	padding: 5px 30px;
+}
+
 .section {
-	background-color: #00CCFF;
+	background-color: #19212d;
 }
 
 .section h2 {
 	text-transform: uppercase;
     margin-top: 70px;
+	font-size: 32px;
+	color: #fff;
 }
 
 .section p {
     margin-bottom: 70px;
+	color: #fff;
 }
 
 .menu {
