@@ -1,3 +1,5 @@
-# wendlereis.github.io
+# wendlereis.io
 
-A simple website page made with HTML5 and CSS3 to apply my knowledge with front-end
+My first website page made with HTML5 and CSS3 to apply front-end knowledges
+
+You can check the result at [wendlereis.github.io](http://wendlereis.github.io)
