@@ -46,16 +46,14 @@ ul img {
 	text-transform: uppercase;
     font-size: 80px;
 	color: #fff;
-	float: right;
 	margin-top: 250px;
+	text-align: right;
 }
 
 .computing p {
 	text-align: right;
 	color: #fff;
 	font-size: 20px;
-	float: right;
-
 }
 
 .section {
@@ -77,7 +75,16 @@ ul img {
 }
 
 /*** Media Queries ***/
-@media (max-width: 767px) {
+@media (max-width: 767px) {	
+	.computing h2 {
+		margin-top: 120px;
+		font-size: 50px;
+	}
+
+	.computing p{
+		font-size: 18px;
+	}
+
 	ul li {
 		display: block;
 		padding: 10px 0; 
