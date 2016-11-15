@@ -36,6 +36,28 @@ ul img {
 }
 
 /*** Classes ***/
+.computing {
+	background: url("../img/computing.png") no-repeat center center;
+	background-size: cover;
+	height: 780px;
+}
+
+.computing h2 {
+	text-transform: uppercase;
+    font-size: 80px;
+	color: #fff;
+	float: right;
+	margin-top: 250px;
+}
+
+.computing p {
+	text-align: right;
+	color: #fff;
+	font-size: 20px;
+	float: right;
+
+}
+
 .section {
 	background-color: #00CCFF;
 }
