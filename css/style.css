@@ -91,7 +91,6 @@ h4 {
 .card {
   border: 1px solid var(--light-grey);
   border-radius: 5px;
-  box-shadow: 2px 5px 21px 1px var(--light-grey);
   box-shadow: 0 4px 8px 0 var(--light-grey);
   padding: 8px 12px;
   margin-top: 12px;
@@ -179,6 +178,6 @@ h4 {
 }
 
 @font-face {
-  font-family: 'Source Code Pro Semiold';
+  font-family: 'Source Code Pro Semibold';
   src: url(../fonts/SourceCodePro-SemiBold.ttf);
 }
