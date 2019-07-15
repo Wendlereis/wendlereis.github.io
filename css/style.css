@@ -1,0 +1,184 @@
+:root {
+  --primary-color: #7c7be8;
+  --secondary-color: #7bb3e8;
+  --accent-color: #87e4ff;
+  --light-grey: #e0e0e0;
+  --white: #fff;
+  --base-color: #fafafa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--base-color);
+  font-family: 'Source Code Pro'
+}
+
+article {
+  width: 100%;
+}
+
+hr {
+  width: 80%;
+  border-top: 1px solid var(--light-grey);
+}
+
+h3 { 
+  font-family: 'Source Code Pro Bold';
+  font-size: 20px;
+  color: var(--secondary-color);
+}
+
+h4 { 
+  font-family: 'Source Code Pro Bold';
+  font-size: 16px;
+}
+
+.header,
+.about,
+.academic,
+.experience,
+.skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.header {
+  background-color: var(--primary-color);
+  height: 300px;
+}
+
+.me,
+.me-description {
+  color: var(--white);
+  text-align: center;
+}
+
+.about p {
+  font-family: 'Source Code Pro Semibold';
+  line-height: 1.4;
+}
+
+.experience h5 {
+  font-family: 'Source Code Pro Semibold';
+  font-size: 16px;
+  color: var(--primary-color);
+}
+
+.skill ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: flex-start;
+  padding-left: 16px;
+  width: 100%
+}
+
+.skill ul li {
+  width: 50%;
+  text-align: center;
+  list-style: none;
+  margin-bottom: 12px;
+  font-family: 'Source Code Pro Bold'
+}
+
+.card {
+  border: 1px solid var(--light-grey);
+  border-radius: 5px;
+  box-shadow: 2px 5px 21px 1px var(--light-grey);
+  box-shadow: 0 4px 8px 0 var(--light-grey);
+  padding: 8px 12px;
+  margin-top: 12px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+  padding: 16px;
+  height: 120px;
+}
+
+.footer h4 {
+  font-size: 20px;
+  color: var(--white);
+}
+
+.footer ul {
+  display: flex;
+}
+
+.footer ul li {
+  list-style: none;
+  margin-left: 16px;
+  color: var(--white);
+}
+
+.footer ul li svg {
+  fill: var(--white);
+}
+
+@media (min-width: 769px) {
+  article {
+    width: 50%;
+  }
+
+  hr {
+    width: 35%;
+  }
+
+  h3 { 
+    font-family: 'Source Code Pro Bold';
+    font-size: 28px;
+  }
+
+  .me {
+    font-size: 40px;
+  }
+  
+  .me-description {
+    font-size: 32px;
+  }
+
+  .skill ul {
+    width: 50%;
+    align-self: auto;
+    padding-left: 0;
+  }
+
+  .card {
+    padding: 8px 32px;
+    margin-top: 12px;
+  }
+
+  .footer {
+    padding: 0 92px;
+  }
+
+  .footer ul li {
+    margin-left: 24px;
+  }
+}
+
+@font-face {
+  font-family: 'Source Code Pro';
+  src: url(../fonts/SourceCodePro-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Source Code Pro Bold';
+  src: url(../fonts/SourceCodePro-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Source Code Pro Semiold';
+  src: url(../fonts/SourceCodePro-SemiBold.ttf);
+}
